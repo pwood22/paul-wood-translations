@@ -1,6 +1,7 @@
 import './globals.css'
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
+import Link from 'next/link'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -22,10 +23,10 @@ export default function RootLayout({
             <div className="flex justify-between items-center">
               <div className="text-xl font-bold">Paul Wood Translations</div>
               <div className="space-x-4">
-                <a href="/" className="text-gray-700 hover:text-gray-900">Home</a>
-                <a href="/about" className="text-gray-700 hover:text-gray-900">About</a>
-                <a href="/references" className="text-gray-700 hover:text-gray-900">References</a>
-                <a href="/contact" className="text-gray-700 hover:text-gray-900">Contact</a>
+                <Link href="/" className="text-gray-700 hover:text-gray-900">Home</Link>
+                <Link href="/about" className="text-gray-700 hover:text-gray-900">About</Link>
+                <Link href="/references" className="text-gray-700 hover:text-gray-900">References</Link>
+                <Link href="/contact" className="text-gray-700 hover:text-gray-900">Contact</Link>
               </div>
             </div>
           </nav>

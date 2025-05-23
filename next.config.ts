@@ -1,11 +1,11 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  output: 'export',  // Enable static exports
+  output: 'export',
   images: {
-    unoptimized: true, // Required for static export
+    unoptimized: true,
   },
-  basePath: '/tman', // Replace 'tman' with your repository name
+  basePath: '/paul-wood-translations', // Updated to match your GitHub repository name
 };
 
 export default nextConfig;

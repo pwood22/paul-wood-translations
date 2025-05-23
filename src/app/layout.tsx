@@ -20,7 +20,7 @@ export default function RootLayout({
         <header className="bg-white shadow-sm">
           <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
             <div className="flex justify-between items-center">
-              <div className="text-xl font-bold">Your Brand</div>
+              <div className="text-xl font-bold">Paul Wood Translations</div>
               <div className="space-x-4">
                 <a href="/" className="text-gray-700 hover:text-gray-900">Home</a>
                 <a href="/about" className="text-gray-700 hover:text-gray-900">About</a>
